@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">mDevConf2020</string>
+    //aqui sentralizamos todos las palabras de nuestra aplicacion para que tradusca en diferentes
+    idiomas
+    <string name="FraseClave">Has lo que puedas</string>
+    <string name="iniciar_sesion_con_google">Iniciar Sesion con Google</string>
+    <string name="nombre">Nombre</string>
+    <string name="contrasenia">Contrasenia</string>
+    <string name="ingresar">INGRESAR</string>
+    <string name="iniciar_sesion_con_facebook">Iniciar Sesion con Facebook</string>
+    <string name="olvide_mi_contrasenia" >Olvide mi contraseña</string>
+</resources>

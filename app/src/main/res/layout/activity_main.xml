@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+<!--    Para texto usar: xsp (sindox un numero)-->
+<!--    Para imagenes u otra casa que no sea texto usar: xdp-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="top"-->
+<!--        android:background="@color/colorFondo"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:text="Bien venidos al mDevConf2020"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="27sp"-->
+<!--        android:layout_marginTop="8dp"/>-->
+
+
+<!--    android:layout_marginTop="100dp"-->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo_transparente"
+        />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_background"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:text="@string/nombre"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_background"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/contrasenia"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/botonIngresar"
+        android:layout_width="260dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="sendMessage"
+        android:text="@string/ingresar" />
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="3dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_google" />
+
+        <TextView
+            android:id="@+id/texto_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/iniciar_sesion_con_google"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:paddingLeft="3dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_facebook" />
+
+        <TextView
+            android:id="@+id/texto_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/iniciar_sesion_con_facebook"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/recuperar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/olvide_mi_contrasenia"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-light"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

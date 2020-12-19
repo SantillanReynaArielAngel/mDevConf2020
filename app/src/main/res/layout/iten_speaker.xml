@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageSpeaker"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/speaker1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameSpeaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Gustavo Lizarraga"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/imageSpeaker"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_editor_absoluteX="112dp"
+        app:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/areaSpeaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Developer android native"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/nameSpeaker"
+        app:layout_constraintTop_toBottomOf="@+id/nameSpeaker" />
+
+
+    ////////////////////////////////////////////////////
+    <ImageView
+        android:id="@+id/imageSpeaker2"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/speaker1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameSpeaker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Gustavo Lizarraga"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/imageSpeaker"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_editor_absoluteX="112dp"
+        app:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/areaSpeaker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Developer android native"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/nameSpeaker"
+        app:layout_constraintTop_toBottomOf="@+id/nameSpeaker" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

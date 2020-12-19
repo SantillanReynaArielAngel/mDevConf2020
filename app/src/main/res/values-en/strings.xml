@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">mDevConf2020</string>
+    //aqui de las palabras centralizadas las traducimos manualmente
+    <string name="FraseClave">Do what you can</string>
+</resources>
